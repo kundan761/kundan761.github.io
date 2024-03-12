@@ -11,8 +11,8 @@ const Contactme = () => {
         const phoneNumber = '9113757543'; // Replace with the desired phone number
         window.location.href = `tel:${phoneNumber}`;
       };
-    const email = 'kundankumarsuraj761@gmail.com';
       const emaillink = ()=>{
+        const email = 'kundankumarsuraj761@gmail.com';
         window.location.href= `mailto:${email}`;
       }
 
@@ -52,8 +52,7 @@ const Contactme = () => {
 
                                 <HiMail className='contact-icon' />
                                 </div>
-{/*                                 <p>kundankumarsuraj761@gmail.com</p> */}
-                                <a href={`mailto:${email}`}><p>{email}</p></a>
+                                 <p>kundankumarsuraj761@gmail.com</p> 
                             </div>
                         </div>
                     </div>
