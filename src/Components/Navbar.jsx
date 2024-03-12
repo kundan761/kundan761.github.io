@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react'
 // import logo from "../Images/k.png"
 import styles from "../Styles/navbar.module.css";
-import { Menu, MenuButton, MenuList, MenuItem, IconButton, Link } from '@chakra-ui/react';
+import { Menu, MenuButton, MenuList, MenuItem, IconButton,  } from '@chakra-ui/react';
 import { SlMenu } from "react-icons/sl";
-import resume from "../files/Saurav_Chavan_Resume.pdf"
+import resume from "../files/Kundan_Resume.pdf"
 
 const Navbar = () => {
 
@@ -50,7 +51,7 @@ const Navbar = () => {
             <nav className={styles.nav}>
 
                 <div className={styles.title_logo}>
-                  <h1>Saurav</h1>
+                  <h1>Kundan</h1>
                 </div>
                 <div >
                     <ul id={styles.nav_links} >

@@ -1,7 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import "../Styles/nav.css"
 import { useState } from 'react';
-import Kundan_Kumar_Suraj_Resume from "../files/Kundan_Kumar_Suraj_Resume.pdf"
+import Kundan_Kumar_Suraj_Resume from "../files/Kundan_Resume.pdf"
 
 
 
@@ -35,7 +36,7 @@ const Nav = () => {
   }
 
   const handleDownload = () => {
-    window.open("https://drive.google.com/file/d/1H-HDpe6L-hV-i0SdBEBfeKV864w4cWeo/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1q2o4fWY18Uv5MJ-dCCk7Vcj5US5gvvVP/view?usp=sharing");
     const link = document.createElement('a');
 
     link.href = Kundan_Kumar_Suraj_Resume;

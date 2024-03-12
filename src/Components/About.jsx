@@ -1,13 +1,13 @@
 import React from 'react';
 import "../Styles/about.css";
 import myphoto from "../Images/myphoto.jpg"
-import Kundan_Kumar_Suraj_Resume from "../files/Kundan_Kumar_Suraj_Resume.pdf"
+import Kundan_Kumar_Suraj_Resume from "../files/Kundan_Resume.pdf"
 
 
 const About = ({ref,func}) => {
 
     const handleDownload = () => {
-        window.open("https://drive.google.com/file/d/1cmaKUGsRBkQaRK5Je5vnsjdObD9mEEH8/view?usp=sharing");
+        window.open("https://drive.google.com/file/d/1q2o4fWY18Uv5MJ-dCCk7Vcj5US5gvvVP/view?usp=sharing");
         const link = document.createElement('a');
         link.href = Kundan_Kumar_Suraj_Resume;
         link.setAttribute('download', 'Kundan_Kumar_Suraj_Resume.pdf');
