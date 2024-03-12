@@ -12,7 +12,7 @@ const Contactme = () => {
         window.location.href = `tel:${phoneNumber}`;
       };
       const emaillink = ()=>{
-        window.location.href= `mailto:kundankumarsuraj761@gmail.com`;
+        window.location.href= 'mailto:kundankumarsuraj761@gmail.com';
       }
 
     return (
