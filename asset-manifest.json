@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.bd0c9a31.css",
-    "main.js": "/static/js/main.7af5fdfa.js",
+    "main.js": "/static/js/main.281ebd4d.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/Bonvoyage.png": "/static/media/Bonvoyage.327e7c4096cda0821ece.png",
     "static/media/devloperLogo.svg": "/static/media/devloperLogo.4ccaed63462142b961fad2ff6c869879.svg",
     "static/media/Voyawander.png": "/static/media/Voyawander.9cd1eb5b0d95ca1dc8d6.png",
-    "static/media/Kundan_Kumar_Suraj_Resume.pdf": "/static/media/Kundan_Kumar_Suraj_Resume.5f5e27b56c8e0d33eab1.pdf",
+    "static/media/Kundan_Resume.pdf": "/static/media/Kundan_Resume.42768871ce341c15de2e.pdf",
     "static/media/Figma.png": "/static/media/Figma.e0b7442f668892fe79ea.png",
     "static/media/myphoto.jpg": "/static/media/myphoto.eef9b0b1abbf0252d4b2.jpg",
     "static/media/razorpay.svg": "/static/media/razorpay.3eee66dd6398f213d763c89fe47f01c6.svg",
@@ -24,11 +24,11 @@
     "static/media/icons8-chakra-ui.svg": "/static/media/icons8-chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
     "static/media/icons8-html.svg": "/static/media/icons8-html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.bd0c9a31.css.map": "/static/css/main.bd0c9a31.css.map",
-    "main.7af5fdfa.js.map": "/static/js/main.7af5fdfa.js.map",
+    "main.281ebd4d.js.map": "/static/js/main.281ebd4d.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd0c9a31.css",
-    "static/js/main.7af5fdfa.js"
+    "static/js/main.281ebd4d.js"
   ]
 }
