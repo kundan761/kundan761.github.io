@@ -7,7 +7,7 @@ import Kundan_Kumar_Suraj_Resume from "../files/Kundan_Resume.pdf"
 const About = ({ref,func}) => {
 
     const handleDownload = () => {
-        window.open("https://drive.google.com/file/d/1q2o4fWY18Uv5MJ-dCCk7Vcj5US5gvvVP/view?usp=sharing");
+        window.open("https://drive.google.com/file/d/1eHDRqV3mKs_G2QE5QQ9ixky8yb95jTBt/view?usp=sharing");
         const link = document.createElement('a');
         link.href = Kundan_Kumar_Suraj_Resume;
         link.setAttribute('download', 'Kundan_Kumar_Suraj_Resume.pdf');
