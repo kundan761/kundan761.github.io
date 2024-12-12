@@ -36,7 +36,7 @@ const Nav = () => {
   }
 
   const handleDownload = () => {
-    window.open("https://drive.google.com/file/d/1eHDRqV3mKs_G2QE5QQ9ixky8yb95jTBt/view");
+    window.open("https://drive.google.com/file/d/1qVyY8JZacrEbkKuKBh0O6o-FeW77YafN/view?usp=sharing");
     const link = document.createElement('a');
 
     link.href = Kundan_Kumar_Suraj_Resume;
@@ -63,6 +63,11 @@ const Nav = () => {
             <li>
               <a href="#about" className="nav-link about"   onClick={closemenu}>
                 About
+              </a>
+            </li>
+            <li>
+              <a href="#experience" className="nav-link experience"   onClick={closemenu}>
+                Experience
               </a>
             </li>
             <li>

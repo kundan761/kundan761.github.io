@@ -10,6 +10,7 @@ import Techstacks from './Components/Techstacks';
 import Footer from './Components/Footer';
 import Nav from './Components/Nav';
 import Social from './Components/Social';
+import Experience from './Components/Experience';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Nav />
       <Intro />
       <About ref={divRef} func={handleScroll} />
+      <Experience />
       <Techstacks />
       <Projects />
       <Statistics />

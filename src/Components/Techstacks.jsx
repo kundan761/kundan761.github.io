@@ -10,7 +10,7 @@ import vscode from "../Images/icons8-visual-studio-code-2019.svg";
 import Mongo from "../Images/icons8-mongodb-a-cross-platform-document-oriented-database-program-96.png";
 // import angular from "../Images/Angular.svg";
 // import python from "../Images/python.svg";
-// import mysql from "../Images/MySQL.svg";
+import mysql from "../Images/MySQL.svg";
 import { Tooltip } from '@chakra-ui/react'
 
 const Techstacks = () => {
@@ -126,7 +126,7 @@ const Techstacks = () => {
           
         </Tooltip> */}
 
-        {/* <Tooltip hasArrow label="TypeScript"  className="tooltip-font " bg={"#007acc"} color={"white"}>
+        <Tooltip hasArrow label="TypeScript"  className="tooltip-font " bg={"#007acc"} color={"white"}>
           
           <div className="coin Typesscript_logo">
             <div className="side heads">
@@ -138,7 +138,7 @@ const Techstacks = () => {
 
             </div>
           </div>
-        </Tooltip> */}
+        </Tooltip>
 
         {/* <Tooltip hasArrow label="Python"  className="tooltip-font " bg={"#35668F"} color={"white"}>
          
@@ -205,7 +205,7 @@ const Techstacks = () => {
 
         
 
-        {/* <Tooltip hasArrow label="MySQL"  className="tooltip-font " bg={"#DE8A03"} color={"white"}>
+        <Tooltip hasArrow label="MySQL"  className="tooltip-font " bg={"#DE8A03"} color={"white"}>
           <div className="coin Mongo_logo">
             <div className="side heads">
 
@@ -216,7 +216,7 @@ const Techstacks = () => {
 
             </div>
           </div>
-        </Tooltip> */}
+        </Tooltip>
 
        
 

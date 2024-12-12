@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+.experience {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  /* padding-top: 20px; */
+}
+
+.experience h1 span {
+  color: #0e4166;
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.experience-item h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 0.5em;
+  font-family: "Poppins", sans-serif;
+}
+
+.job-duration {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.8em;
+  font-family: "Outfit", sans-serif;
+}
+
+.job-description {
+  text-align: justify;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  color: #444;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+.job-role {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0e4166;
+  margin-bottom: 0.5em;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    
+  .experience-content {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .experience-item h2 {
+    font-size: 1.5rem;
+  }
+  .job-role {
+    font-size: 1.1rem;
+  }
+
+  .job-description {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+}

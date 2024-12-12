@@ -62,6 +62,9 @@ const Navbar = () => {
                             <a href="#about" onClick={scrollToSection("about")}>About</a>
                         </li>
                         <li>
+                            <a href="#experience" onClick={scrollToSection("experience")}>Experience</a>
+                        </li>
+                        <li>
                             <a href="#techstacks" onClick={scrollToSection("techstacks")}>Skills</a>
                         </li>
                         <li>
