@@ -16,7 +16,6 @@ import { Tooltip } from '@chakra-ui/react'
 const Techstacks = () => {
 
 
-
   return (
     <div className='Tech-Stacks' id="skills">
 
