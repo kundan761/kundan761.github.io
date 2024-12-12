@@ -11,6 +11,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "atropos": "^1.0.2",
+    "caniuse-lite": "^1.0.30001688",
     "framer-motion": "^10.12.12",
     "github-calendar": "^2.3.2",
     "nodemailer": "^6.9.2",
@@ -51,7 +52,7 @@
       "last 1 safari version"
     ]
   },
-    "devDependencies": {
+  "devDependencies": {
     "gh-pages": "^5.0.0"
   }
 }
