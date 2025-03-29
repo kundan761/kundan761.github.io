@@ -9,8 +9,8 @@ const Experience = () => {
       </h1>
       <div className="experience-content">
         <div className="experience-item">
-          <h2>Cognisite Technologies Pvt Ltd</h2>
-          <p className="job-duration">August 2024 - November 2024</p>
+          <h2 style={{ color: "#0e4166" }}>Cognisite Technologies Pvt Ltd</h2>
+          <p className="job-duration">August 2024 - January 2025</p>
           <p className="job-role">Full Stack Developer</p>
           <p className="job-description">
             Managed both frontend and backend development. 

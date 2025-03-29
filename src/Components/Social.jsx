@@ -9,7 +9,7 @@ const Social = () => {
       }
     
       const instagramlink = ()=>{
-        window.open("https://www.instagram.com/imr_sooraj/");
+        window.open("https://www.instagram.com/imsooraj_09/");
       }
     
       const linkedinlink = ()=>{
