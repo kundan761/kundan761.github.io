@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.c8f37366.css",
-    "main.js": "/static/js/main.99189280.js",
+    "main.js": "/static/js/main.015088be.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/Bonvoyage.png": "/static/media/Bonvoyage.327e7c4096cda0821ece.png",
     "static/media/devloperLogo.svg": "/static/media/devloperLogo.4ccaed63462142b961fad2ff6c869879.svg",
     "static/media/Voyawander.png": "/static/media/Voyawander.9cd1eb5b0d95ca1dc8d6.png",
-    "static/media/Kundan_Resume.pdf": "/static/media/Kundan_Resume.68c64f33feb6b605b5d1.pdf",
+    "static/media/Kundan_Resume.pdf": "/static/media/Kundan_Resume.3a8b41016a561006cb45.pdf",
     "static/media/Figma.png": "/static/media/Figma.e0b7442f668892fe79ea.png",
     "static/media/myphoto.jpg": "/static/media/myphoto.eef9b0b1abbf0252d4b2.jpg",
     "static/media/MySQL.svg": "/static/media/MySQL.31ad00b59b236f7485d650f738433054.svg",
+    "static/media/Postman.svg": "/static/media/Postman.4f13d94619e491aa4cfa8ca9492ed110.svg",
     "static/media/razorpay.svg": "/static/media/razorpay.3eee66dd6398f213d763c89fe47f01c6.svg",
     "static/media/vercel-seeklogo.com.svg": "/static/media/vercel-seeklogo.com.e45a29fb833a9cee6001d1cf2527e962.svg",
+    "static/media/Bootstrap.svg": "/static/media/Bootstrap.1f1d6bd3811dece9cf8ed729700cf21e.svg",
     "static/media/icons8-node-js.svg": "/static/media/icons8-node-js.436ff3953a68d5c10f48f4fa57530016.svg",
     "static/media/icons8-react-native.svg": "/static/media/icons8-react-native.21b5daa594e0977b3ac254df4795c98a.svg",
     "static/media/icons8-redux.svg": "/static/media/icons8-redux.0a4a6ca2be44339bedb69de15f66d243.svg",
@@ -21,15 +23,18 @@
     "static/media/icons8-javascript.svg": "/static/media/icons8-javascript.081325c6f229605dce15142ddd948d6d.svg",
     "index.html": "/index.html",
     "static/media/icons8-visual-studio-code-2019.svg": "/static/media/icons8-visual-studio-code-2019.a227f2b476a9693602ccb65ede4ea460.svg",
+    "static/media/Figma.svg": "/static/media/Figma.2c2c9d7ff067a3272fbcb7e4700d15a6.svg",
     "static/media/icons8-css.svg": "/static/media/icons8-css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-chakra-ui.svg": "/static/media/icons8-chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
     "static/media/icons8-html.svg": "/static/media/icons8-html.c1bb84e022ca9d76984d4b943bd678fd.svg",
+    "static/media/Material UI.svg": "/static/media/Material UI.87264df237ee700ba78bb58ff701a6d3.svg",
+    "static/media/Next.js.svg": "/static/media/Next.js.17fe1720dcc66b60fc1a5a70d104d1dd.svg",
     "main.c8f37366.css.map": "/static/css/main.c8f37366.css.map",
-    "main.99189280.js.map": "/static/js/main.99189280.js.map",
+    "main.015088be.js.map": "/static/js/main.015088be.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8f37366.css",
-    "static/js/main.99189280.js"
+    "static/js/main.015088be.js"
   ]
 }
