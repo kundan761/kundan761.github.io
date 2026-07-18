@@ -1,48 +1,66 @@
 import React from 'react';
-import "../Styles/about.css";
-import myphoto from "../Images/myphoto.jpg"
-import Kundan_Kumar_Suraj_Resume from "../files/Kundan_Resume.pdf"
+import { motion } from 'framer-motion';
+import { stats } from '../data/stats';
 
+function StatCard({ stat, index }) {
+  const Icon = stat.icon;
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 32 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.6, delay: index * 0.08, ease: [0.22, 1, 0.36, 1] }}
+      whileHover={{ y: -6 }}
+      className="group relative p-7 rounded-2xl border border-border bg-bg-card transition-all duration-300 text-left hover:border-border-accent hover:shadow-[0_0_30px_rgba(249,115,22,0.15)]"
+    >
+      <div className="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-accent/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-const About = ({ref,func}) => {
-
-    const handleDownload = () => {
-        window.open("https://drive.google.com/file/d/1KCT6lRJnW-v3MYkgzRmqvU7yEzSGj_6K/view?usp=sharing");
-        const link = document.createElement('a');
-        link.href = Kundan_Kumar_Suraj_Resume;
-        link.setAttribute('download', 'Kundan_Kumar_Suraj_Resume.pdf');
-        link.setAttribute('id', 'resume-link-2');
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-      };
-
-    return (
-        <div className='about section' id='about' ref={ref} onScroll={func}>
-
-            <h1 className='about-me'>About <span style={{ color: "#0e4166" }}>Me</span></h1>
-
-            <div className='image-des'>
-                <div>
-                <img className='home-img' src={myphoto} alt="myimage" />
-                </div>
-                <div >
-                    <p id="user-detail-intro">Results-driven Full Stack Web Developer with expertise in building functional and visually appealing user interfaces using React.js. Proficient in JavaScript and experienced in developing and maintaining web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Collaborative team player with excellent problem-solving skills and a strong command of frontend development tools and practices.</p>
-                    <div className="resume-button" id="resume-button-2">
-                    <button className="download-button" onClick={handleDownload}>
-                        <div className="docs"><svg className="css-i6dzq1" strokeLinejoin="round" strokeLinecap="round" fill="none" strokeWidth="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line y2="13" x2="8" y1="13" x1="16"></line><line y2="17" x2="8" y1="17" x1="16"></line><polyline points="10 9 9 9 8 9"></polyline></svg> Resume</div>
-                        <div className="download">
-                            <svg className="css-i6dzq1" strokeLinejoin="round" strokeLinecap="round" fill="none" strokeWidth="2" stroke="currentColor" height="24" width="24" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line y2="3" x2="12" y1="15" x1="12"></line></svg>
-                        </div>
-                    </button>
-                    </div>
-                </div>
-            </div>
-
+      <div className="flex items-center justify-between mb-6">
+        <div className="w-11 h-11 rounded-xl bg-[rgba(249,115,22,0.1)] border border-[rgba(249,115,22,0.2)] inline-flex items-center justify-center text-accent">
+          <Icon className="w-5 h-5" />
         </div>
-    )
+        <span className="text-xs uppercase tracking-[0.18em] text-text-muted">0{index + 1}</span>
+      </div>
+
+      <div className="font-sans font-extrabold text-4xl sm:text-5xl tracking-tight mb-3">
+        <span className="text-text-muted">{stat.prefix}</span>
+        <span className="text-accent">{stat.value}</span>
+        <span className="text-text-grey">{stat.suffix}</span>
+      </div>
+      <div className="mt-3 text-[0.95rem] font-bold text-text-primary">{stat.label}</div>
+      <div className="mt-1.5 text-xs text-text-secondary leading-relaxed">{stat.description}</div>
+    </motion.div>
+  );
 }
 
-export default About;
+const About = ({ ref, func }) => {
+  return (
+    <section className="py-[120px] max-sm:py-[80px]" id="about" ref={ref} onScroll={func}>
+      <div className="max-w-[1200px] mx-auto px-10 max-sm:px-5 text-center">
 
-// Experienced and enthusiastic web developer with over 1000 hours of coding experience and a strong background in data structures and algorithms (100+ hours). Skilled in front-end and back-end development, utilizing technologies such as ReactJS, Node.js, JavaScript, ExpressJS, and MongoDB. Developed clones of popular websites and successfully collaborated on projects with teams. Highly disciplined, motivated, and a problem solver.
+        {/* Header */}
+        <div className="flex flex-col items-center mb-16">
+          <span className="inline-flex items-center gap-2 bg-accent/10 border border-accent rounded-full py-1.5 px-4 text-[0.72rem] font-bold tracking-[0.12em] text-accent uppercase mb-6">
+            <span className="w-2 h-2 rounded-full bg-accent shrink-0 animate-pulse" />
+            About Me
+          </span>
+          <h2 className="text-[clamp(2rem,4vw,3.2rem)] font-extrabold leading-[1.15] text-text-primary mb-4">
+            Engineering thoughtful, <span className="text-accent">scalable software.</span>
+          </h2>
+          <p className="text-base text-text-secondary max-w-[640px] leading-[1.75] mt-2">
+            Software Engineer with 2+ years of experience designing scalable architecture, optimizing APIs, and delivering production-ready applications. Below are some highlights from my journey.
+          </p>
+        </div>
+
+        {/* Stat cards */}
+        <div className="grid grid-cols-3 gap-5 mb-[60px] max-[900px]:grid-cols-2 max-sm:grid-cols-1">
+          {stats.map((s, i) => (
+            <StatCard key={s.label} stat={s} index={i} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;

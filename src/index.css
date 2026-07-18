@@ -1,3 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Light mode colors */
+  --bg-primary:    #ffffff;
+  --bg-surface:    #f8fafc;
+  --bg-surface-2:  #f1f5f9;
+  --bg-card:       #ffffff;
+  --bg-card-hover: #f8fafc;
+  --border:        rgba(0, 0, 0, 0.2);
+  --border-accent: rgba(249, 115, 22, 0.3);
+  --accent:        #f97316;
+  --accent-light:  #fb923c;
+  --accent-dark:   #ea580c;
+  --accent-glow:   rgba(249, 115, 22, 0.15);
+  --text-primary:  #0f172a;
+  --text-secondary:#334155;
+  --text-muted:    #64748b;
+  --radius-sm:     8px;
+  --radius-md:     12px;
+  --radius-lg:     20px;
+  --radius-xl:     28px;
+  --shadow-card:   0 4px 24px rgba(0,0,0,0.06);
+  --shadow-accent: 0 0 30px rgba(249,115,22,0.15);
+  --transition:    all 0.3s ease;
+}
+
+.dark {
+  /* Dark mode colors */
+  --bg-primary:    #080d1a;
+  --bg-surface:    #0f1629;
+  --bg-surface-2:  #131b2e;
+  --bg-card:       #111827;
+  --bg-card-hover: #1a2236;
+  --border:        rgba(255, 255, 255, 0.15);
+  --border-accent: rgba(249, 115, 22, 0.3);
+  --accent:        #f97316;
+  --accent-light:  #fb923c;
+  --accent-dark:   #c2570a;
+  --accent-glow:   rgba(249, 115, 22, 0.15);
+  --text-primary:  #ffffff;
+  --text-secondary:#94a3b8;
+  --text-muted:    #64748b;
+  --shadow-card:   0 4px 24px rgba(0,0,0,0.4);
+  --shadow-accent: 0 0 30px rgba(249,115,22,0.2);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +56,176 @@
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
-  scroll-padding-top: 2rem;
-  font-family: "Poppins", sans-serif;
+  scroll-padding-top: 80px;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ── Shared section layout ─────────────────────────── */
+.section {
+  padding: 100px 0;
+  position: relative;
+}
+
+.section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* ── Section badge pill ────────────────────────────── */
+.section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 6px 16px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.section-badge::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.6; transform: scale(0.8); }
+}
+
+/* ── Section headings ──────────────────────────────── */
+.section-heading {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.section-heading .accent {
+  color: var(--accent);
+}
+
+.section-subtext {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  max-width: 600px;
+  margin-bottom: 60px;
+  line-height: 1.7;
+}
+
+/* ── Cards ─────────────────────────────────────────── */
+.dark-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: var(--transition);
+}
+
+.dark-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-accent);
+  box-shadow: var(--shadow-accent);
+}
+
+/* ── Icon box (orange square) ─────────────────────── */
+.icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background: rgba(249,115,22,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
+/* ── Buttons ───────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  padding: 12px 28px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-primary:hover {
+  background: var(--accent-light);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(249,115,22,0.35);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 12px 28px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-outline:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ── Scrollbar ─────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+/* ── Text selection ────────────────────────────────── */
+::selection { background: var(--accent); color: #fff; }
+
+.mask-fade-edges {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }

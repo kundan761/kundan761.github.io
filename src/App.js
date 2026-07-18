@@ -1,43 +1,48 @@
-import { useRef } from 'react';
-import './App.css';
-import About from './Components/About';
-import ContactForm from './Components/Contactme';
-import Intro from './Components/Intro';
-import Projects from './Components/Projects';
-import ScrollToTopButton from './Components/Scroll';
-import Statistics from './Components/Statistics';
-import Techstacks from './Components/Techstacks';
-import Footer from './Components/Footer';
 import Nav from './Components/Nav';
-import Social from './Components/Social';
+import Intro from './Components/Intro';
+import About from './Components/About';
+import OpenSource from './Components/OpenSource';
 import Experience from './Components/Experience';
-
+import Techstacks from './Components/Techstacks';
+import Projects from './Components/Projects';
+import Achievements from './Components/Achievements';
+import Certificates from './Components/Certificates';
+import Services from './Components/Services';
+import ContactForm from './Components/Contactme';
+import React, { useState, useEffect } from 'react';
+import { AnimatePresence } from 'framer-motion';
+import Loader from './Components/Loader';
+import ScrollToTopButton from './Components/Scroll';
+import Footer from './Components/Footer';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
 
-
-  const divRef = useRef(null);
-
-  const handleScroll = () => {
-    const scrollTop = divRef.current.scrollTop;
-    console.log(scrollTop); // Scroll Y value of the div
-  };
-
-
+  useEffect(() => {
+    // Simulate initial page load
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1800); // 1.8s loading screen
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-    <div className="App">
-
+    <div className="bg-bg-primary text-text-primary font-sans overflow-x-hidden min-h-screen relative">
+      <AnimatePresence mode="wait">
+        {isLoading && <Loader />}
+      </AnimatePresence>
       <Nav />
       <Intro />
-      <About ref={divRef} func={handleScroll} />
+      <About />
+      <OpenSource />
       <Experience />
       <Techstacks />
       <Projects />
-      <Statistics />
+      <Achievements />
+      <Services />
+      <Certificates />
       <ContactForm />
       <ScrollToTopButton />
-      <Social />
       <Footer />
     </div>
   );
