@@ -2,7 +2,7 @@ export const experiences = [
   {
     company: 'WelcomeScreen',
     location: 'Remote · San Francisco, USA Time',
-    positionsLabel: 'Software Engineer · full-stack product work',
+    positionsLabel: '1 position · full-stack, systems & performance work',
     skills: ['TypeScript', 'Next.js', 'PostgreSQL', 'Docker', 'Datadog', 'System Design', 'Microservices', 'Ai-integration', 'Payments', 'Real-Time'],
     roles: [
       {
@@ -23,7 +23,7 @@ export const experiences = [
   {
     company: 'Cognisite Technologies Pvt Ltd',
     location: 'Bengaluru · On-site',
-    positionsLabel: 'Full Stack Developer · Full-stack product work',
+    positionsLabel: '1 position · full-stack product work',
     skills: ['JavaScript', 'React.js', 'Node.js', 'Express.js', 'Mysql', 'BootStrap', 'AWS', 'HTML & CSS', 'Git'],
     roles: [
       {

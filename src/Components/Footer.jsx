@@ -25,9 +25,10 @@ const Footer = () => {
             <span className="text-[1.35rem] font-extrabold text-text-primary tracking-wide">
               {profile.shortName || 'Kundan'} <span className="text-accent">Suraj</span>
             </span>
-            <span className="text-[0.9rem] text-text-secondary max-w-[350px] leading-relaxed">
-              Building scalable systems, optimizing performance, and shipping full-stack products end-to-end.
-            </span>
+            <div className="text-[0.9rem] text-text-secondary max-w-[350px] leading-relaxed flex flex-col mt-1">
+              <span className="font-bold text-text-primary/90 mb-0.5">Software Engineer</span>
+              <span>Building scalable, full-stack products — end to end.</span>
+            </div>
           </div>
 
           {/* Social Links */}
