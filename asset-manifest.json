@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.302de126.css",
-    "main.js": "/static/js/main.8aa51533.js",
+    "main.js": "/static/js/main.be62b49f.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/Bonvoyage.png": "/static/media/Bonvoyage.327e7c4096cda0821ece.png",
     "static/media/nav-icon.png": "/static/media/nav-icon.c07d0327ccbf24ed80bd.png",
     "static/media/Voyawander.png": "/static/media/Voyawander.9cd1eb5b0d95ca1dc8d6.png",
     "static/media/NptelDBMS.png": "/static/media/NptelDBMS.9841dacce6879ffbdc2d.png",
     "static/media/Trendsetter.png": "/static/media/Trendsetter.ca488c8dc431e224ec07.png",
-    "static/media/Kundan_Resume.pdf": "/static/media/Kundan_Resume.3a8b41016a561006cb45.pdf",
     "static/media/Pingify.png": "/static/media/Pingify.9e6d30276670651b1623.png",
     "static/media/Figma.png": "/static/media/Figma.e0b7442f668892fe79ea.png",
     "static/media/MasaiConstructWeek.jpg": "/static/media/MasaiConstructWeek.8db0f769ebd6d82cba79.jpg",
@@ -17,14 +16,15 @@
     "static/media/UdemyCpp.jpg": "/static/media/UdemyCpp.dd288cf89e467b7566f9.jpg",
     "static/media/MasaiFullStack.jpg": "/static/media/MasaiFullStack.4c7698372148d95abf7a.jpg",
     "static/media/TrackIt.png": "/static/media/TrackIt.5473b3a24c9bfe872b49.png",
+    "static/media/Kundan_Suraj_Resume.pdf": "/static/media/Kundan_Suraj_Resume.b56673c1f7d2023c6b4a.pdf",
     "static/media/NextCent.png": "/static/media/NextCent.2def196e5c91c8aa956b.png",
     "index.html": "/index.html",
     "main.302de126.css.map": "/static/css/main.302de126.css.map",
-    "main.8aa51533.js.map": "/static/js/main.8aa51533.js.map",
+    "main.be62b49f.js.map": "/static/js/main.be62b49f.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.302de126.css",
-    "static/js/main.8aa51533.js"
+    "static/js/main.be62b49f.js"
   ]
 }
