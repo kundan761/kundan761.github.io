@@ -1,4 +1,4 @@
-import Kundan_Kumar_Suraj_Resume from "../files/Kundan_Resume.pdf";
+import Kundan_Kumar_Suraj_Resume from "../files/Kundan_Suraj_Resume.pdf";
 
 export const profile = {
   name: 'Kundan Kumar Suraj',
@@ -17,7 +17,7 @@ export const profile = {
   location: 'Bengaluru, Karnataka · India',
   socials: {
     github: 'https://github.com/kundan761',
-    linkedin: 'https://www.linkedin.com/in/kundankumarsuraj/',
+    linkedin: 'https://www.linkedin.com/in/kundan-kumar-suraj',
     whatsapp: 'https://wa.me/919113757543',
     twitter: 'https://twitter.com/@Kundan_761',
   },

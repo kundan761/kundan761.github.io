@@ -55,10 +55,10 @@ export const skillGroups = [
     skills: [
       { name: 'JavaScript', level: 96, Icon: SiJavascript, color: 'text-yellow-400' },
       { name: 'TypeScript', level: 94, Icon: SiTypescript, color: 'text-blue-500' },
-      { name: 'Java', level: 80, Icon: SiOpenjdk, color: 'text-red-500' },
-      { name: 'C / C++', level: 88, Icon: SiCplusplus, color: 'text-blue-600' },
-      { name: 'SQL', level: 90, Icon: SiMysql, color: 'text-cyan-500' },
-      { name: 'Python', level: 70, Icon: SiPython, color: 'text-blue-400' },
+      { name: 'Java', level: 88, Icon: SiOpenjdk, color: 'text-red-500' },
+      { name: 'SQL', level: 85, Icon: SiMysql, color: 'text-cyan-500' },
+      { name: 'C / C++', level: 70, Icon: SiCplusplus, color: 'text-blue-600' },
+      { name: 'Python', level: 60, Icon: SiPython, color: 'text-blue-400' },
     ],
   },
   {

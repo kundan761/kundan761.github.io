@@ -1,9 +1,9 @@
 export const experiences = [
   {
     company: 'WelcomeScreen',
-    location: 'Remote · San Francisco, USA Time',
+    location: 'San Francisco, USA · Remote',
     positionsLabel: '1 position · full-stack, systems & performance work',
-    skills: ['TypeScript', 'Next.js', 'PostgreSQL', 'Docker', 'Datadog', 'System Design', 'Microservices', 'Ai-integration', 'Payments', 'Real-Time'],
+    skills: ['TypeScript', 'Next.js', 'PostgreSQL', 'Docker', 'Datadog', 'System Design', 'Microservices', 'Ai-integration', 'Stripe', 'Mocha', 'Chai'],
     roles: [
       {
         title: 'Software Engineer',
@@ -22,9 +22,9 @@ export const experiences = [
   },
   {
     company: 'Cognisite Technologies Pvt Ltd',
-    location: 'Bengaluru · On-site',
+    location: 'Bengaluru, Karnataka · On-site',
     positionsLabel: '1 position · full-stack product work',
-    skills: ['JavaScript', 'React.js', 'Node.js', 'Express.js', 'Mysql', 'BootStrap', 'AWS', 'HTML & CSS', 'Git'],
+    skills: ['JavaScript', 'React.js', 'Node.js', 'Express.js', 'Mysql', 'BootStrap', 'AWS', 'EC2', 'S3', 'HTML & CSS', 'Git', 'Github'],
     roles: [
       {
         title: 'Full Stack Developer',
