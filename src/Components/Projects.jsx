@@ -9,7 +9,7 @@ const Projects = () => {
   const doubledProjects = [...PROJECTS, ...PROJECTS];
 
   return (
-    <section className="py-[100px] overflow-hidden">
+    <section id="projects" className="py-[100px] overflow-hidden">
       <div className="max-w-[1200px] mx-auto px-10 max-md:px-5">
 
         {/* Header */}

@@ -65,13 +65,7 @@ const Nav = () => {
   }, []);
 
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = profile.resumeUrl;
-    link.setAttribute('download', 'Kundan_Kumar_Suraj_Resume');
-    link.setAttribute('id', 'resume-link-nav');
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    window.open(profile.resumeUrl, '_blank');
   };
 
   const handleLinkClick = (label) => {

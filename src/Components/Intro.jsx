@@ -86,7 +86,6 @@ const Intro = () => {
               </a>
               <a 
                 href={profile.resumeUrl} 
-                download="Kundan_Kumar_Suraj_Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center min-w-[140px] gap-2 bg-accent/10 border border-accent text-accent rounded-full px-6 py-3 text-[0.9rem] font-bold transition-all duration-300 tracking-wide hover:bg-accent/20 hover:-translate-y-[1px]"

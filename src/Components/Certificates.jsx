@@ -122,7 +122,7 @@ function Lightbox({ cert, onClose }) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.2 }}
-          className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-8 bg-black/85 backdrop-blur-md"
+          className="fixed inset-0 z-[1050] flex items-center justify-center p-4 sm:p-8 bg-black/85 backdrop-blur-md"
           onClick={onClose}
         >
           <motion.div
