@@ -23,18 +23,18 @@ export const profile = {
   },
   resumeUrl: Kundan_Kumar_Suraj_Resume,
   handles: {
-    leetcode: '',
-    hackerrank: '',
+    leetcode: 'https://leetcode.com/u/Kundan_761',
+    hackerrank: 'https://www.hackerrank.com/profile/kundankumarsura1',
   },
 };
 
 export const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
-  { label: 'Open Source', href: '#open-source' },
+  // { label: 'Open Source', href: '#open-source' }, //Uncomment it when comment the Projects
   { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'Projects', href: '#projects' }, // While removing this make sure to remove id as well and keep it in skill
   { label: 'Achievements', href: '#achievements' },
   { label: 'Contact', href: '#contact' },
 ];
