@@ -47,8 +47,8 @@ const About = ({ ref, func }) => {
           <h2 className="text-[clamp(2rem,4vw,3.2rem)] font-extrabold leading-[1.15] text-text-primary mb-4">
             Engineering thoughtful, <span className="text-accent">scalable software.</span>
           </h2>
-          <p className="text-base text-text-secondary max-w-[640px] leading-[1.75] mt-2">
-            Software Engineer with 2+ years of experience designing scalable architecture, optimizing APIs, and delivering production-ready applications. Below are some highlights from my journey.
+          <p className="text-base text-text-secondary max-w-[620px] leading-[1.75] mt-2">
+            I build robust, high-performance products from zero to production. Here are a few key metrics from that journey — and the work I'm wired for.
           </p>
         </div>
 

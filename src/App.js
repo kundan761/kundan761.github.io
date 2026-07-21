@@ -9,6 +9,7 @@ import Achievements from './Components/Achievements';
 import Certificates from './Components/Certificates';
 import Services from './Components/Services';
 import ContactForm from './Components/Contactme';
+import Schedule from './Components/Schedule';
 import React, { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import Loader from './Components/Loader';
@@ -42,6 +43,7 @@ function App() {
       <Services />
       <Certificates />
       <ContactForm />
+      <Schedule />
       <ScrollToTopButton />
       <Footer />
     </div>

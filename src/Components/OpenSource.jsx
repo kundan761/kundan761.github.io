@@ -83,12 +83,14 @@ const OpenSource = () => {
           <div className="flex flex-col gap-5 sticky top-[90px] max-md:static">
             <div className="bg-[#0d1117] border border-border rounded-lg overflow-hidden">
               <div className="flex items-center justify-between px-[18px] py-[14px] border-b border-border bg-[#161b22]">
-                <div className="flex gap-[7px]">
-                  <span className="w-3 h-3 rounded-full bg-[#ff5f57]" />
-                  <span className="w-3 h-3 rounded-full bg-[#febc2e]" />
-                  <span className="w-3 h-3 rounded-full bg-[#28c840]" />
+                <div className="flex items-center gap-2">
+                  <div className="flex gap-[7px]">
+                    <span className="w-3 h-3 rounded-full bg-[#ff5f57]" />
+                    <span className="w-3 h-3 rounded-full bg-[#febc2e]" />
+                    <span className="w-3 h-3 rounded-full bg-[#28c840]" />
+                  </div>
+                  <span className="text-[0.75rem] text-text-muted font-mono">{openSourceData.fileName}</span>
                 </div>
-                <span className="text-[0.75rem] text-text-muted font-mono">{openSourceData.fileName}</span>
                 <span className="text-[0.72rem] text-text-muted font-mono">{openSourceData.packageName} · {openSourceData.version}</span>
               </div>
               <div className="p-6 font-mono text-[0.82rem] leading-[1.9] text-[#e6edf3] overflow-x-auto whitespace-pre scrollbar-hide">
@@ -106,7 +108,7 @@ const OpenSource = () => {
                 <AiFillGithub className="w-4 h-4" /> Source Code
               </button>
               <button onClick={() => window.open(openSourceData.npmLink)} className="inline-flex items-center justify-center gap-2 bg-accent text-white border-none rounded-lg py-2.5 px-5 text-[0.85rem] font-bold cursor-pointer transition-all duration-300 hover:bg-accent-light hover:-translate-y-[1px] hover:shadow-[0_8px_20px_rgba(249,115,22,0.4)]">
-                 <ExternalLink className="w-4 h-4" /> View on npm <MoveUpRight className='w-4 h-4'/>
+                <ExternalLink className="w-4 h-4" /> View on npm <MoveUpRight className='w-4 h-4' />
               </button>
             </div>
           </div>

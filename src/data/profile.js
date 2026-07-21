@@ -20,6 +20,7 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/kundan-kumar-suraj',
     whatsapp: 'https://wa.me/919113757543',
     twitter: 'https://twitter.com/@Kundan_761',
+    cal: 'https://cal.com/kundan761'
   },
   resumeUrl: Kundan_Kumar_Suraj_Resume,
   handles: {
@@ -31,10 +32,9 @@ export const profile = {
 export const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
-  // { label: 'Open Source', href: '#open-source' }, //Uncomment it when comment the Projects
+  { label: 'Open Source', href: '#open-source' },
   { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' }, // While removing this make sure to remove id as well and keep it in skill
   { label: 'Achievements', href: '#achievements' },
   { label: 'Contact', href: '#contact' },
 ];

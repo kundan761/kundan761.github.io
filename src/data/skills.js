@@ -44,7 +44,6 @@ import {
   SiRedis,
   SiStripe,
   SiSocketdotio,
-  SiSkillshare,
 } from 'react-icons/si'
 import { FaAws } from 'react-icons/fa6'
 
@@ -58,7 +57,6 @@ export const skillGroups = [
       { name: 'TypeScript', level: 94, Icon: SiTypescript, color: 'text-blue-500' },
       { name: 'Java', level: 88, Icon: SiOpenjdk, color: 'text-red-500' },
       { name: 'SQL', level: 85, Icon: SiMysql, color: 'text-cyan-500' },
-      { name: 'Teamwork  ·  Problem Solving ', level: 90, Icon: SiSkillshare, color: 'text-blue-400' },
       { name: 'C / C++', level: 70, Icon: SiCplusplus, color: 'text-blue-600' },
       { name: 'Python', level: 60, Icon: SiPython, color: 'text-blue-400' },
     ],
